@@ -25,3 +25,25 @@ int main(){
     cout<<c1.name<<endl<<c1.age;
 
 }
+
+
+
+// single inheritance 
+//                  one class pass property to another class is called single Inheritance
+
+
+// multilevel inheritance
+//                      - multiple level of inheritance
+
+// multiple inheritance
+//                     - one class as a multiple inheritance
+
+// hirerachical inheritance 
+//                      - it is tree like structure
+
+// hybrid inheritance
+//                  - mix of inheritance
+
+
+// multipath inheritance
+//                  - multiple path to inherit properties
