@@ -44,26 +44,25 @@ int main(){
         temp=temp->next;
     }
 
-/*
     // delete node at start -----------------------------------------------------------
-
+/*
     if(Head!=NULL){
         Node *temp = Head;
         Head = Head->next;
         delete temp;
     }
 
-    cout<<"Delete First Node"<<endl;
-    Node *temp=Head;
-    while(temp !=NULL){
-        cout<<temp->data<<"-->";
-        temp=temp->next;
+    cout<<"\n Delete First Node"<<endl;
+    Node *temp2=Head;
+    while(temp2 !=NULL){
+        cout<<temp2->data<<"-->";
+        temp2=temp2->next;
     }
 
 */
 
  
- /*
+/*
     // delete node at end -----------------------------------------------------------
     if(Head !=NULL){
     //    only one node is present
@@ -98,7 +97,7 @@ int main(){
 
 
 
-// delete particular Node -----------------------------------------------------------
+// delete particular Node -----------------------------------------------------------          
 
     cout<<endl<<"delete particular Node"<<endl;
     int x=3;
@@ -118,6 +117,7 @@ int main(){
     }
     prev->next=curr->next;
     delete curr;
+
 
      Node *temp2=Head;
     while(temp2 !=NULL){
